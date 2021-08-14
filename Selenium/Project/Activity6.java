@@ -23,7 +23,6 @@ Close the browser
 		pwd.sendKeys("pa$$w0rd");
 		WebElement submit=driver.findElement(By.id("bigbutton"));
 		submit.click();
-		WebElement menu=driver.findElement(By.id("toolbar"));
 		WebElement ioption=driver.findElement(By.id("grouptab_3"));
 		String ivalue= ioption.getText();
 		System.out.println(ivalue);
